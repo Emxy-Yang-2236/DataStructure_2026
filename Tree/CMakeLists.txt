@@ -3,8 +3,10 @@ project(Tree)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Tree main.cpp
+add_executable(Tree test_splay.cpp
         BinarySearchTree.hpp
         Integer_Test.h
         AVLTree.h
-        RedBlackTree.hpp)
+        RedBlackTree.hpp
+        HuffmanTree.hpp
+        SplayTree.hpp)
